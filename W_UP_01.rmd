@@ -46,7 +46,7 @@ We will use numeric ~ categorical
 ### Plot boxplots
 
 ```{r}
-plot(momheight~Sex,data=davisdata)
+boxplot(pushups~position,data=mydata)
 ```
 ### Numerical Descriptive Results
 
