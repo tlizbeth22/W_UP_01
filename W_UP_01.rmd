@@ -83,11 +83,13 @@ favstats(pushups~position,data=mydata)
 ```{r}
 t.test(pushups~position,data=mydata)
 ```
-p value is .000009421
+The p value is 0.000009421; thus $H_0$ is highly unlikely; we reject the null hypothesis. 
 
 # Discussion and Conclusion
 
-The box plot and numerical data shows that skilled players do more pushups than line players. The Inferential results p value is .000009421, which means it's highly unlikely that it occured by means of chance. 
+The original question was, 'Do players on the football team in line and skill positions do on average the same number of push ups in two minutes?'
+
+The box plot and numerical data shows that skilled players do more push ups than line players. The Inferential results p value is .000009421, which means it's highly unlikely that it occurred by means of chance. We conclude that, at least for Georgetown College players (team= Fighting GoldFish) the skill position players do more push ups. 
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!--> 
 
